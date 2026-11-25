@@ -1,0 +1,36 @@
+
+# Python y Django
+**/.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+*.sqlite3
+**/.pytest_cache/
+
+# React
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Respaldos
+*.backup
+*.dump
+*.sql
+*.zip
+
+# Archivos locales
+*.log
+.vscode/
+.idea/
+**/media/
+**/staticfiles/
+
+# Script pendiente de revis
+poblar.py

@@ -1,0 +1,23 @@
+/* Estilos complementarios para componentes React. Mantiene la identidad original. */
+.demo-alert{background:#fff5e6;color:#925114;border:1px solid #ffd59c;border-radius:12px;padding:15px 17px;font-size:12px;line-height:1.5;margin-bottom:18px}
+.demo-alert strong{font-weight:850}.card p{line-height:1.65}.numbers{font-size:24px!important;margin:12px 0!important}
+.helper{font-size:12px;color:#6b7f97;line-height:1.6}.actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.truncate{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.test-banner{color:#28649a;background:#ecf5ff;border:1px solid #d3e6ff;border-radius:10px;padding:11px 14px;font-size:12px;margin:15px 0}
+.error-banner{color:#a51e29;background:#fff0f1;border:1px solid #f8cbd2;border-radius:10px;padding:12px 14px;font-size:12px;margin:12px 0}
+.success-banner{color:#0b7954;background:#e7f8ef;border:1px solid #c4ebd7;border-radius:10px;padding:12px 14px;font-size:12px;margin:12px 0}
+.role-switch{display:flex;align-items:center;gap:8px;justify-content:center;flex-wrap:wrap}.table-wrap{width:100%;overflow-x:auto}.text-right{text-align:right}.muted{color:#718499}.bold{font-weight:800}
+.gap-sm{gap:8px}.section-gap{margin-top:20px}.workspace-split{display:grid;grid-template-columns:1.3fr 1fr;gap:17px}
+.click-row{cursor:pointer}.picture-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:13px 0}.picture-grid img{width:100%;height:90px;object-fit:cover;border-radius:9px;border:1px solid #e2e8ee}
+.signature-pad{display:block;max-width:100%;width:100%;background:#fff;border:1px dashed #9bacbb;border-radius:10px;touch-action:none;cursor:crosshair}
+.real-only-note{padding:10px 12px;background:#e9f4ff;border:1px solid #caddf2;color:#255985;border-radius:10px;font-size:12px;margin-bottom:12px}
+.work-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}.mobile-meta{font-size:12px;color:#718499;line-height:1.6}
+.tech-shell{max-width:520px;margin:25px auto 70px;background:#fff;border:1px solid #dde6ee;border-radius:23px;overflow:hidden;box-shadow:0 20px 60px rgba(15,47,77,.15)}
+.tech-shell-top{background:linear-gradient(120deg,#102e55,#1976cc);padding:22px;color:#fff}.tech-shell-top h2{margin:7px 0 4px;font-size:24px}.tech-shell-top small{color:#bdd9f1}.tech-shell-nav{display:flex;gap:6px;padding:12px;background:#f2f7fc;overflow-x:auto}
+.tech-shell-nav button{background:transparent;border:0;border-radius:9px;padding:10px;font-size:11px;color:#46627e;white-space:nowrap}.tech-shell-nav button.active{background:#daebff;color:#0e5dbb;font-weight:800}
+.tech-shell-body{padding:20px}.tech-work-item{border:1px solid #e0e9f0;padding:14px;border-radius:12px;width:100%;text-align:left;background:white;margin:8px 0;display:flex;gap:10px;align-items:center;justify-content:space-between}
+.tech-work-item h3{font-size:13px;margin:0 0 4px}.tech-work-item p{font-size:11px;color:#72879b;margin:0}.mobile-form .btn{width:100%}
+.fixed-toast{position:fixed;z-index:30;bottom:22px;right:25px;background:#08794f;color:#fff;padding:13px 17px;border-radius:10px;box-shadow:0 10px 32px #1b425733;font-size:12px;max-width:min(450px,90vw)}.fixed-toast.error{background:#b42f41}
+.sidebar-foot button{display:block;text-align:left}.hidden{display:none!important}.empty{padding:25px;text-align:center;color:#7c91a3;font-size:12px}
+.stacked{display:flex;flex-direction:column;gap:10px}.align-center{display:flex;align-items:center;gap:8px}
+@media(max-width:1050px){.workspace-split{grid-template-columns:1fr}.grid-2{grid-template-columns:1fr}}
+@media(max-width:720px){.stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.card-grid{grid-template-columns:1fr}.page-head{flex-direction:column}.login-screen{display:block}.login-visual{display:none}.login-form-area{min-height:100vh}.sidebar{width:75px;flex-basis:75px;padding:12px 6px}.sidebar .logo strong,.sidebar .logo small,.nav-section,.nav-item .nav-label,.sidebar-foot .side-user,.side-link{display:none!important}.nav-item{justify-content:center}.main-area{min-width:0}.topbar{padding:12px;height:auto;flex-wrap:wrap}.content{padding:18px}.grid-2.equal{grid-template-columns:1fr}}
